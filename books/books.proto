@@ -1,0 +1,12 @@
+syntax="proto2";
+
+package books;
+
+message books {
+    optional string name = 1;
+    optional string author = 2;
+    optional string publication = 3;
+    optional string subject = 4;
+    optional double price = 5;
+    optional uint32 pages = 6;
+}

@@ -1,0 +1,26 @@
+ Books folder contains the proto file from which the file are generated and linked during the compile time.
+ Socket, Students and math generates the libraies shared and static.
+ The main code call the basic int APIs in all the above libraries and successfully executes the output.
+ This will install the bin and libs in the specific folder at intall command and generate 3 tests for unit test.
+
+Compile steps.
+rm -rf build
+mkir build
+cd build
+cmake ../
+make OR cmake --build .
+
+To generate the bin and lib folder before install.
+make bin
+make lib
+make install
+./bin/base_project
+
+For test,
+ctest
+
+To test custom command.
+make out
+make res
+
+
