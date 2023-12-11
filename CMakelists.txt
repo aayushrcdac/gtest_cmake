@@ -37,4 +37,4 @@ students/src/sdm.cpp
 ADD_EXECUTABLE(main 
 test_main.cpp
 my_main.cpp)
-TARGET_LINK_LIBRARIES(main proto ${Protobuf_LIBRARIES} math_lib socket_lib student_lib ${GTEST_LIBRARIES} ${GTEST_MAIN_LIBRARIES})
+TARGET_LINK_LIBRARIES(main proto ${Protobuf_LIBRARIES} math_lib socket_lib student_lib ${GTEST_LIBRARIES} ${GTEST_MAIN_LIBRARIES} protobuf::protobuf GTest::GTest GTest::Main)

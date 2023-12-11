@@ -2,7 +2,7 @@
 #include <string>
 #include "students/inc/InitStudent.h"
 #include "socket/inc/InitSock.h"
-#include "build/books.pb.h"
+#include "build/books/books.pb.h"
 #include "math/inc/add.h"
 #include "my_main.h"
 
